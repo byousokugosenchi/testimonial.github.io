@@ -1,0 +1,29 @@
+@use "../utils" as *;
+@use "../globals" as *;
+
+// Author Component
+.author {
+    display: flex;
+    align-items: center;
+    &__img{
+        border-radius: 50%;
+    }
+    &__name{
+        padding: 0 1.15rem;
+
+    }
+}
+
+// Heading Component
+.heading {
+    font-size: 1.1em;
+    margin: 1.25rem 0;
+}
+
+// Detail Component
+.detail {
+    font-size: 0.7rem;
+    &--light-grey{
+        color: var(--color-light-grey);
+    }
+}
